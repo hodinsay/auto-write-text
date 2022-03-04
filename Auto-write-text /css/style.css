@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: "Space Mono", sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0;
+     padding-top: 20rem;
+     min-height: 100vh;
+     background-image: url(https://4kwallpapers.com/images/wallpapers/girl-alone-forest-mystic-surreal-portal-dream-3000x2000-1055.jpg);
+     background-size: cover;
+     background-position: center;
+     font-size: 15px;
+}
+
